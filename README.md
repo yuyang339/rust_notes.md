@@ -56,8 +56,27 @@ slice: a[0..3]
 
 The type that signifies “string slice” is written as &str
 
+## chapter6 Struct
 
+struct is similiar to tuple. like tuple, the elements of a struct can be different types.
+unlike tuple, an element of a struct can have a name.
 
+define a struct:
+struct struct_name {
+  element_name1: type1,
+  element_name2: type2,
+}
 
+instantiate a struct:
+struct_name {
+  element_name1: value,
+  element_name2: value,
+}
 
+define a method associated with the struct
 
+impl struct_name {
+  fn func_name(args) -> return_type {
+    func_body
+  }
+}
