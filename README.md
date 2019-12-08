@@ -80,3 +80,14 @@ impl struct_name {
     func_body
   }
 }
+
+
+## chapter7 enum
+
+enum enum_type {
+  variant1,
+  variant2
+}
+
+this custom data type enum_type has two variants
+when we instantiate variants, we 
