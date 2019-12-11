@@ -56,7 +56,7 @@ slice: a[0..3]
 
 The type that signifies “string slice” is written as &str
 
-## chapter6 Struct
+## chapter5 Struct
 
 struct is similiar to tuple. like tuple, the elements of a struct can be different types.
 unlike tuple, an element of a struct can have a name.
@@ -82,7 +82,7 @@ impl struct_name {
 }
 
 
-## chapter7 enum
+## chapter6 enum
 
 enum enum_type {
   variant1,
@@ -91,3 +91,31 @@ enum enum_type {
 
 this custom data type enum_type has two variants
 when we instantiate variants, we 
+
+
+## chapter8 common collections
+let v: Vec<u32> = Vec::new()
+  
+macro for conviniece: type annotation is not necessary because we give inital values and Rust can infer the type from the initial values
+let v = vec![1,2,3]
+
+all the elements of a vec should be the same type.
+but there is a way to have different elements.
+We can define an enum whose variants will hold the different value types, 
+and then all the enum variants will be considered the same type: that of the enum. 
+
+enum a {
+  one(i32),
+  two(String)
+}
+
+let b = Vec![a::one(1), a::two(String::from("blue"))]
+
+str: defined in core language. string slice type
+String: defined in stanard library
+
+to_string method to create a String from a string literal
+String::from create a String from a string literal. 
+Rust strings don’t support indexing
+
+A String is a wrapper over a Vec<u8>.
