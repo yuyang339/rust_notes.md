@@ -93,6 +93,9 @@ this custom data type enum_type has two variants
 when we instantiate variants, we 
 
 
+## chapter7 managing projects
+
+
 ## chapter8 common collections
 let v: Vec<u32> = Vec::new()
   
@@ -119,3 +122,14 @@ String::from create a String from a string literal.
 Rust strings don’t support indexing
 
 A String is a wrapper over a Vec<u8>.
+  
+  
+use insert to add new elements into hashmap
+use get to access elements in hashmap
+use entry(key).or_insert(val) to add the key into the hashmap (if it is the first time we see the key) or update the value (if the key is already in the hashmap)
+
+
+## chapter9 error handling
+switch from unwinding to aborting upon a panic by adding panic = 'abort' to the appropriate [profile] sections in your Cargo.toml file.
+
+
