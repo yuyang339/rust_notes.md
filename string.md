@@ -4,6 +4,11 @@ x.to_string();
 
 ```
 
+## initialize a vector with empty strings
+```rust
+let mut vect = vec![String::new(); 126];
+```
+
 
 ## reverse a string
 ```rust
