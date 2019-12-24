@@ -27,3 +27,13 @@ vec.push(1) // Add an element to the end
 vec.pop() // Remove an element from the end
 
 ```
+
+## size of a vector
+```rust
+vec.len()
+```
+
+## reverse a vector
+```rust
+v.reverse();
+```
