@@ -1,7 +1,7 @@
 ## initialize a vector
 ```rust
 let mut res: Vec<i32> = Vec::new();
-let mut res: Vec<i32> = vec![0, capacity];
+let mut res: Vec<i32> = vec![0; capacity];
 ```
 
 
