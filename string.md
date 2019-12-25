@@ -25,4 +25,11 @@ for (i, c) in s.chars().enumerate()
 ```rust
 
 s.push_str(&str)
+s += "xxxx"
+```
+
+## check if a string is empty
+```rust
+s.is_empty() 
+
 ```
