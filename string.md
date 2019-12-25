@@ -14,3 +14,9 @@ let mut vect = vec![String::new(); 126];
 ```rust
 y.chars().rev().collect::<String>() 
 ```
+
+## enumerate a string
+```rust
+for (i, c) in s.chars().enumerate()
+
+```
