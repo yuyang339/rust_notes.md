@@ -20,3 +20,9 @@ y.chars().rev().collect::<String>()
 for (i, c) in s.chars().enumerate()
 
 ```
+
+## string concatenation
+```rust
+
+s.push_str(&str)
+```
