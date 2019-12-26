@@ -11,6 +11,11 @@ for x in (1..10).step_by(2) {
         println!("{}", x);
 ```
 
+## reverse a loop
+```rust
+for i in 1..10.rev() // 9, 8, ... 1
+```
+
 ## for iter 
 ### Borrows each element of the collection through each iteration. Thus leaving the collection untouched and available for reuse after the loop.
 ```rust
