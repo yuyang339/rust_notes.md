@@ -34,3 +34,9 @@ s += "xxxx"
 s.is_empty() 
 
 ```
+
+## split a string
+```rust
+s.split("delimiter") // return a iterator
+
+```
