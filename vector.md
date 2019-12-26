@@ -4,6 +4,10 @@ let mut res: Vec<i32> = Vec::new();
 let mut res: Vec<i32> = vec![0; capacity];
 ```
 
+## Insert new element at the end of the vector
+```rust
+vec.push(x)
+```
 
 ## emunerate a vector
 ```rust
