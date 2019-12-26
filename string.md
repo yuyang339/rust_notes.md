@@ -36,7 +36,13 @@ s.is_empty()
 ```
 
 ## split a string
+### by a seperator
 ```rust
 s.split("delimiter") // return a iterator
-
+s.split("delimiter").collect() // return a vector
 ```
+### by whitespace
+s.split_whitespace()
+
+### by newlines
+s.lines()
