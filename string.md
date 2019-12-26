@@ -11,6 +11,7 @@ let mut vect = vec![String::new(); 126];
 
 
 ## reverse a string
+### rev() is lazy. So we need to call collect in order to force the computation. Also when we call collect, we need to specify the type it returns.
 ```rust
 y.chars().rev().collect::<String>() 
 ```
