@@ -33,3 +33,5 @@ the lifetime of self is assigned to all output lifetime parameters.
 This third rule makes methods much nicer to read and write because fewer symbols are necessary.
 
 ## static lifetime
+this reference can live for the entire duration of the program. All string literals have the 'static lifetime
+this is similiar to static keyword in C++
